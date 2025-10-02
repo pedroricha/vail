@@ -6,15 +6,15 @@
   <title>VAIL Consultoria — Coleta Privada & Gestão de Resíduos</title>
   <meta name="description" content="Consultoria para empresas que precisam de coleta privada de resíduos. PGRS, licenças e operação ponta a ponta." />
   <meta name="theme-color" content="#0b2734" />
-  <link rel="preload" href="assets/img/logo-vail.png" as="image">
-  <link rel="icon" href="assets/img/logo-vail.png" type="image/png" />
+  <link rel="icon" href="assets/img/logo-vail-icon.png" type="image/png" sizes="32x32" />
+  <link rel="preload" href="assets/img/logo-vail-icon.png" as="image" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <!-- NAVBAR GLASS -->
   <header class="nav">
     <a class="brand" href="#topo">
-      <img src="assets/img/logo-vail.png" alt="Logo VAIL" width="40" height="40" />
+      <img src="assets/img/logo-vail-icon.png" alt="Logo VAIL" width="40" height="40" />
       <span class="brand__text">VAIL <strong>CONSULTORIA</strong></span>
     </a>
     <button class="nav__toggle" aria-expanded="false" aria-controls="menu">Menu</button>
@@ -28,7 +28,7 @@
     </nav>
   </header>
 
-  <!-- HERO COM GRADIENTE ORGÂNICO -->
+  <!-- HERO -->
   <section id="topo" class="hero section">
     <div class="hero__bg" aria-hidden="true"></div>
     <div class="container hero__content">
@@ -43,20 +43,19 @@
         <a href="#servicos" class="btn btn--ghost btn--lg">Conhecer serviços</a>
       </div>
       <div class="hero__stats fx-reveal">
-        <div><strong>99%</strong><span>SLA de coleta</span></div>
-        <div><strong>24/7</strong><span>Atendimento</span></div>
-        <div><strong>+120</strong><span>Contratos ativos</span></div>
+        <div><strong>99%</strong> <span>SLA de coleta</span></div>
+        <div><strong>24/7</strong> <span>Atendimento</span></div>
+        <div><strong>+120</strong> <span>Contratos ativos</span></div>
       </div>
     </div>
   </section>
 
-  <!-- SERVIÇOS COM ÍCONES -->
+  <!-- SERVIÇOS -->
   <section id="servicos" class="section container">
     <h2 class="section__title fx-reveal">Serviços</h2>
     <div class="cards">
       <article class="card fx-reveal">
         <div class="icon">
-          <!-- caminhão -->
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h11v8H3zM14 9h4l3 3v2h-7zM5.5 18a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm11 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
         </div>
         <h3>Coleta privada dedicada</h3>
@@ -65,7 +64,6 @@
 
       <article class="card fx-reveal">
         <div class="icon">
-          <!-- documento -->
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
         </div>
         <h3>PGRS & gestão</h3>
@@ -74,7 +72,6 @@
 
       <article class="card fx-reveal">
         <div class="icon">
-          <!-- selo -->
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3 3 4-.5-1 4 3 3-3 3 1 4-4-.5-3 3-3-3-4 .5 1-4-3-3 3-3-1-4 4 .5z"/></svg>
         </div>
         <h3>Licenças & compliance</h3>
@@ -83,7 +80,6 @@
 
       <article class="card fx-reveal">
         <div class="icon">
-          <!-- chapéu -->
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l10 6-10 6L2 9l10-6z"/><path d="M22 13v3c0 2-4.48 4-10 4S2 18 2 16v-3"/></svg>
         </div>
         <h3>Treinamento & POPs</h3>
@@ -92,7 +88,7 @@
     </div>
   </section>
 
-  <!-- COMO FUNCIONA (TIMELINE) -->
+  <!-- COMO FUNCIONA -->
   <section id="como-funciona" class="section section--alt">
     <div class="container">
       <h2 class="section__title fx-reveal">Como funciona</h2>
@@ -119,12 +115,12 @@
     </div>
   </section>
 
-  <!-- CTA GRADIENTE -->
+  <!-- CTA -->
   <section class="section cta">
     <div class="container cta__box fx-reveal">
       <h2>Precisa de coleta privada ou PGRS?</h2>
       <p>Fale com um especialista agora mesmo.</p>
-      <a href="#contato" class="btn btn--light">Solicitar proposta</a>
+      <a href="#contato" class="btn">Solicitar proposta</a>
     </div>
   </section>
 
@@ -153,7 +149,8 @@
     </div>
   </section>
 
-  <a href="https://wa.me/5500000000000" class="whatsapp" aria-label="Falar no WhatsApp" rel="noopener" target="_blank">WhatsApp</a>
+  <!-- TIREI O ICONE DE WHATSAPP ABAIXO-->
+  <!-- <a href="https://wa.me/5500000000000" class="whatsapp" aria-label="Falar no WhatsApp" rel="noopener" target="_blank">WhatsApp</a> -->
 
   <footer class="footer">
     <div class="container">
@@ -161,7 +158,6 @@
     </div>
   </footer>
 
-  <!-- Modal -->
   <dialog id="privacyModal" class="modal">
     <article class="modal__content">
       <h3>Privacidade & LGPD</h3>
@@ -170,6 +166,6 @@
     </article>
   </dialog>
 
-  <script src="script.js"></script>
+  <script src="scripts.js"></script>
 </body>
 </html>
